@@ -3,8 +3,8 @@
 #include <DHT.h>
 
 // ======== Konfigurasi WiFi dan MQTT =========
-const char* ssid       = "NAMA_WIFI";
-const char* password   = "PASSWORD_WIFI";
+const char* ssid       = ""; //Nama Wifi
+const char* password   = ""; //Password WIfi
 const char* mqttServer = "broker.hivemq.com";
 const int   mqttPort   = 1883;
 const char* mqttTopic  = "data/tanaman";
