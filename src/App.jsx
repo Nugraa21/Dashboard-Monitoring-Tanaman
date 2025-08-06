@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import DataPanel from './DataPanel';
+import DataPanel from './components/DataCard';
 import client from './mqtt/mqttService';
 
 function App() {
